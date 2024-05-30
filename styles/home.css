@@ -1,0 +1,82 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 96px);
+    position: relative;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+#cta .title{ 
+    font-size: 2rem;
+    color: #8f2a2a;
+}
+
+#cta .description {
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 25px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#phone_button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgb(255, 0, 0);
+    border-radius: 12px;
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 50%;
+    z-index: 2;
+}
+
+#banner img {
+    height: 50%;
+    width: fit-content;
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner, img,
+    #home .shape {
+        display: none;
+    }
+    
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #phone_button button {
+        display: none;
+    }
+}
