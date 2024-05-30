@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #1b1b1b;
+    background-color: #1d1d1d;
 }
 
 section {
@@ -24,13 +24,14 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ff7300;
+    background-color: #ffffff;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color .3s ease;
+    color: #ff6e27;
 }
 
 .btn-default:hover {
@@ -48,7 +49,7 @@ section {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: #ff7300;
+    background-color: #f34739;
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
@@ -61,7 +62,7 @@ section {
 }
 
 .section-title {
-    color: #8f2a2a;
+    color: #f34739;
     font-size: 2.1875rem;
 }
 
@@ -69,3 +70,4 @@ section {
     color: #ffffff;
     font-size: 1,563rem;
 }
+
