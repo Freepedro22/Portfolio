@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/hearder.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/home.css">
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -17,7 +17,7 @@
 
 <header>
     <nav id="navbar">
-        <i class="fa-solid fa-user-tie" id="nav_logo"> Pedro Augusto</i>
+        <i class="nav_logo"> <img src="image/pa logo.png" alt=""></i>
 
         <ul id="nav_list">
             <li class="nav-item active">
@@ -31,9 +31,12 @@
             </li>
         </ul>
 
-        <button class="btn-default">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+        <input type="checkbox" class="checkbox" id="chk"/>
+        <label class="label" for="chk">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-regular fa-moon"></i>
+            <div class="ball"></div>
+        </label>
         
     </nav>
 
@@ -55,13 +58,11 @@
 </header>
 <main id="content">
     <section id="home">
-        <div class="shape"></div>
         <div id="cta">
-            <h1 class="title"> Sobre mim:
+            <h1 class="title"> Olá, eu sou o <br> <strong>Pedro Augusto</strong> 
             </h1>
             <p class="description">
-                Sempre fui fascinado por tecnologia. Desde pequeno, desmontava brinquedos eletrônicos só para entender como funcionavam. Agora, com 27 anos, decidi mergulhar de cabeça no mundo da programação, estou no 4° período de ADS. Passo horas estudando linguagens como Python e JavaScript, encantado com as infinitas possibilidades que o código oferece. Cada novo conceito aprendido é uma conquista, e cada bug resolvido, uma vitória. sonho em criar soluções inovadoras que façam a diferença na vida das pessoas, sabendo que estou apenas no começo de uma jornada emocionante e desafiadora no vasto universo da tecnologia.
-            </p>
+                Sou Desenvolvedor Web em busca de uma vaga no mercado de trabalho, Cursando <strong>Análise e Desenvolvimento de Sistemas</strong> e apaixonado por tecnologia 
               <div id="cta_buttons">
                 <a href="tel: +5575991200703" id="phone_button">
                     <button class="btn-default">
@@ -81,10 +82,16 @@
                     <i class="fa-brands fa-github"></i>
                 </a>
             </div>
-            </div>
+        </div>
             <div id="banner">
-                <img src="/image/baner def.png" alt="">
+                <img src="/image/telainicial.png" alt="">
             </div>
+    </section>
+    <section id="sobremim" class="sobre">
+        <h2 class="title">Quem sou eu ?</h2>
+        <div>
+            <img class="img-quem-sou-eu" src="image/bannerfut.png" alt="foto do Pedro Augusto">
+            <h2>Sempre fui fascinado por tecnologia. Desde pequeno, desmontava brinquedos eletrônicos só para entender como funcionavam. Agora, com 27 anos, decidi mergulhar de cabeça no mundo da programação, estou no 4° período de ADS. Passo horas estudando linguagens como Python e JavaScript, encantado com as infinitas possibilidades que o código oferece. Cada novo conceito aprendido é uma conquista, e cada bug resolvido, uma vitória. sonho em criar soluções inovadoras que façam a diferença na vida das pessoas, sabendo que estou apenas no começo de uma jornada emocionante e desafiadora no vasto universo da tecnologia.</h2>
         </div>
     </section>
                 <section id="menu">

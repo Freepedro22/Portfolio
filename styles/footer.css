@@ -1,5 +1,5 @@
 footer {
-    background-color: #000000;
+    background-color: var(--back3);
     padding: 2em;
 }
 
@@ -11,7 +11,7 @@ footer {
 }
 
 #copyright {
-    color: #fffefe;
+    color: var(--white);
     font-weight: 500;
 }
 
